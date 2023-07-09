@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html" >Sobre min</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque">com Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Guilherme estrela, desenvolvedor Front-end Buscando conhecimento em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/guiestrela.lambert/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/guiestrela">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.instagram.com/guiestrela.lambert/">
+                    <img src="assets/instagram.png" alt="instagram">
+                    Instagram </a>
+                <a class="apresentacao__links__link" href="https://github.com/guiestrela">
+                    <img src="assets/github.png" alt="GitHub">
+                    GitHub </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/guilherme-estrela-lambert-de-brito-4166a539/">
+                    <img src="assets/linkedin.png" alt="linkedin">
+                    linkedin </a>
             </div>
         </section>
-        <img src="imagens/portfolio.png" alt="imagem portfolio">
+        <img src="assets/portfolio.png" alt="imagem portfolio">
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Guilherme Estrela</p>
     </footer>
 </body>
 </html>
